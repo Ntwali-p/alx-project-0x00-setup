@@ -14,7 +14,9 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   return (
-    <button className={`${sizeClasses[size]} bg-blue-500 text-white font-semibold ${shape} ${styles}`}>
+    <button
+      className={`${sizeClasses[size]} bg-blue-500 text-white font-semibold ${shape} ${styles}`}
+    >
       {title}
     </button>
   );

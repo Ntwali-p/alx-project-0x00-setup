@@ -21,5 +21,6 @@ const Landing: React.FC = () => {
     </div>
   );
 };
+<Button title="Large Red Button" size="large" shape="rounded-full" styles="bg-red-500 hover:bg-red-600" />
 
 export default Landing;

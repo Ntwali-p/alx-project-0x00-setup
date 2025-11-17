@@ -39,3 +39,15 @@ alx-project-0x00/
 ├─ package.json
 ├─ tsconfig.json
 └─ README.md
+
+---
+
+## Setup Instructions
+
+1. **Install dependencies**
+
+```bash
+npm install
+npm run dev -- -p 3000
+
+

@@ -1,10 +1,11 @@
 import React from "react";
+import React from "react";
 import Card from "@/components/Card";
 import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen p-6 gap-6 bg-gray-50">
+    <div className="flex flex-col items-center justify-start min-h-screen p-6 gap-6 bg-gray-50 rounded-lg">
       <h1 className="text-2xl font-semibold">Landing Page</h1>
 
       {/* Buttons with different shapes */}
